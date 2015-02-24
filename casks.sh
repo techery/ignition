@@ -3,16 +3,20 @@
 CASKROOM_PATH="$(brew --prefix)/Caskroom"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=$CASKROOM_PATH"
 
-brew cask install iterm2
-brew cask install sublime-text
-brew cask install flux
+brew cask install appcleaner
+brew cask install dash
 brew cask install dropbox
+brew cask install flux
+brew cask install github
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install iterm2
+brew cask install skype
+brew cask install slack
+brew cask install spectacle
+brew cask install sublime-text
 brew cask install transmission
 brew cask install vlc
-brew cask install spectacle
-brew cask install dash
-# add some other apps here
-
 
 # QuickLook Plugins
 brew cask install qlcolorcode
