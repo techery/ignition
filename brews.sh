@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# Configure install environment
+export RBENV_ROOT=$(brew --prefix)/var/rbenv
+
 ensure_directory_exists() {
   if [ ! -d $1 ]; then
     mkdir -p $1
