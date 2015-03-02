@@ -51,7 +51,7 @@ brew tap 'thoughtbot/formulae'
 brew_install 'rcm'
 
 # More recent versions of system utils
-brew tap brew/dupes
+brew tap homebrew/dupes
 brew_install 'coreutils'
 brew install 'homebrew/dupes/openssh' '--with-keychain-support'
 brew install 'homebrew/dupes/grep'

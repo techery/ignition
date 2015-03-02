@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 CASKROOM_PATH="$(brew --prefix)/Caskroom"
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=$CASKROOM_PATH"
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=$CASKROOM_PATH --fontdir=/Library/Fonts"
 
 brew cask install appcleaner
 brew cask install dash
@@ -24,7 +24,6 @@ brew cask install qlstephen
 brew cask install qlmarkdown
 brew cask install quicklook-json
 brew cask install quicklook-csv
-brew cask install suspicious-package
 brew cask install webpquicklook
 
 qlmanage -r
